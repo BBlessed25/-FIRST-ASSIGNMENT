@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f111a;
+    color: #d1d5db;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    gap: 2rem;
+  }
+  
+  .text-section {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .logo-icon {
+    font-size: 2rem;
+    color: #1dd1a1;
+    margin-right: 0.5rem;
+  }
+  
+  .logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #1dd1a1;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #ffffff;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #ffffff;
+  }
+  
+  .form {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  input[type="email"] {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 25px   25px;
+    outline: none;
+    width: 250px;
+    background-color: #1e293b;
+    color: white;
+  }
+  
+  button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius:  25px 25px ;
+    background-color: #1dd1a1;
+    color: #0f111a;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    flex: 1;
+  }
