@@ -98,7 +98,7 @@
     cursor: pointer;
   }
   
-  .image-section img {
+  .image-section {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
