@@ -99,7 +99,9 @@
   }
   
   .image-section {
-    max-width: 100%;
+    display: flex;
+justify-content:space-around
+    width: 400px;
     height: auto;
     border-radius: 10px;
     flex: 1;
