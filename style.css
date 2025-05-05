@@ -99,10 +99,13 @@
   }
   
   .image-section {
-    display: flex;
-justify-content:space-around
-    width: 400px;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 280px;
     height: auto;
+    object-fit: cover;
     border-radius: 10px;
-    flex: 1;
   }
